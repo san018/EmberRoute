@@ -1,0 +1,17 @@
+
+
+  {{#each model as |contact|}}
+    {{contact.id}}
+    <br>
+    {{contact.name}}
+    <br>
+  {{/each}}
+<!--  {{contact.name}} -->
+<!--
+    {{#each contact in filteredContact}}
+    {{contact.name}}
+    <br>
+    {{contact.id}}
+    {{/each}}
+-->
+{{outlet}}
